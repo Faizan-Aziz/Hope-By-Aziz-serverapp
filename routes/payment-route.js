@@ -6,7 +6,7 @@ import dotenv from 'dotenv';
 
 dotenv.config(); // Load environment variables
 
-const stripe = Stripe(process.env.SECRET_KEY); // Initialize Stripe
+const stripe = Stripe(process.env.STRIPE_SECRET_KEY); // Initialize Stripe
 
 
 
