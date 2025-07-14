@@ -10,7 +10,7 @@ import reportroutes from   './routes/report-routes.js'
 
 
 const app = express()
-const port = process.env.PORT || 3000;
+const port =3000;
 
 dotenv.config(); // ✅ Load environment variables BEFORE using them
 connectMongoDB(); // ✅ Now process.env.DATABASE_URL is available
